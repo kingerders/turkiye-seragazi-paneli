@@ -1726,19 +1726,19 @@
             // Sectors statistics
             sectorsStats.innerHTML = `
                 <div class="stat-card">
-                    <div class="stat-value">${sectorData.energy.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${sectorData.energy.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">${t.energy} (${energyPercent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${sectorData.industrial_processes.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${sectorData.industrial_processes.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">${t.industrial} (${industrialPercent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${sectorData.agriculture.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${sectorData.agriculture.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">${t.agriculture} (${agriculturePercent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${sectorData.waste.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${sectorData.waste.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">${t.waste} (${wastePercent}%)</div>
                 </div>
             `;
@@ -1746,19 +1746,19 @@
             // GHG types statistics
             ghgTypesStats.innerHTML = `
                 <div class="stat-card">
-                    <div class="stat-value">${ghgData.co2.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${ghgData.co2.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">CO₂ (${co2Percent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${ghgData.ch4.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${ghgData.ch4.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">CH₄ (${ch4Percent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${ghgData.n2o.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${ghgData.n2o.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">N₂O (${n2oPercent}%)</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">${ghgData.f_gases.toFixed(1)} Mt CO₂ eş.</div>
+                    <div class="stat-value">${ghgData.f_gases.toFixed(1)} <span style="font-size: 0.7em;">Mt CO₂ eş.</span></div>
                     <div class="stat-label">F-gazlar (${fGasesPercent}%)</div>
                 </div>
             `;
@@ -1768,6 +1768,14 @@
         document.addEventListener('DOMContentLoaded', function() {
             updateLanguage();
             initializeDashboard();
+        });
+    </script>
+    
+    <!-- Google AdSense Otomatik Reklamları Aktivasyonu -->
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8723630978676321",
+            enable_page_level_ads: true
         });
     </script>
 </body>
