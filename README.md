@@ -1,6 +1,6 @@
 # Türkiye Sera Gazı Emisyonları İnteraktif Gösterge Paneli
 
-**🇹🇷 Turkey GHG Emissions Interactive Dashboard**
+**🇹🇷 Türkiye GHG Emissions Interactive Dashboard**
 
 Bu proje, Türkiye'nin 1990-2023 dönemine ait sera gazı emisyon verilerinin interaktif görselleştirmesini ve Ulusal Katkı Beyanı (NDC) hedeflerinin analizini sunar.
 
