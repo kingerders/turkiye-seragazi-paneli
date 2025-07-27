@@ -85,4 +85,4 @@ Bu proje açık kaynak kodludur ve MIT lisansı altında sunulmaktadır.
 
 *Bu proje, Türkiye'nin iklim değişikliği ile mücadele konusundaki şeffaflık ve farkındalık artırma çalışmalarına katkı sağlamayı amaçlamaktadır.*
 
-*This project aims to contribute to transparency and awareness efforts in Turkey's fight against climate change.*
+*This project aims to contribute to transparency and awareness efforts in Türkiye's fight against climate change.*
